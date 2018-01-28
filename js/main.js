@@ -10,11 +10,11 @@
       styleTag.innerHTML = code.substring(0,n)
       container.scrollTop = container.scrollHeight
       if(n < code.length){
-        id = setTimeout(run, 50)
+        id = setTimeout(run, 20)
       }else{
         fn && fn.call()
       }
-    }, 50)
+    }, 20)
   }
   let code = `/*
  * 首先，是皮卡丘的皮

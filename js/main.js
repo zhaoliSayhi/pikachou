@@ -10,7 +10,7 @@
       styleTag.innerHTML = code.substring(0,n)
       container.scrollTop = container.scrollHeight
       if(n < code.length){
-        id = setTimeout(run, 10)
+        id = setTimeout(run, 50)
       }else{
         fn && fn.call()
       }

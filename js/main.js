@@ -17,7 +17,7 @@
     }, 10)
   }
   let code = `/*
- * 首先，需要准备皮卡丘的皮
+ * 首先，是皮卡丘的皮
  */
 .preview{
   background: #FEE433;
@@ -64,14 +64,14 @@
   border: 2px solid #000;
 }
 /*
- * 左眼在左边（废话）
+ * 左眼在左边
  */
 .eye.left{
   right: 50%;
   margin-right: 90px;
 }
 /*
- * 右眼在右边（废话）
+ * 右眼在右边
  */
 .eye.right{
   left: 50%;
@@ -162,7 +162,7 @@
   border-radius: 50px;
 }
 /*
- * 好了，这只皮卡丘送给你
+ * 好了，这只皮卡丘送给你！
  */
 `
 	  writeCode('', code)
